@@ -7,19 +7,19 @@
     }
     
     section#login {
-        width: 90vw;
-        height: 300px;
+        inline-size: 90vw;
+        block-size: 300px;
     }
 
     section#login > div#imagem {
-        float: left;
-        width: 30%;
-        height: 100%;
+        float: inline-start;
+        inline-size: 30%;
+        block-size: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
-        width: 70%;
+        float: inline-end;
+        inline-size: 70%;
         
     }
 }
@@ -31,19 +31,19 @@
     }
 
     section#login {
-        width: 950px;
-        height: 400px;
+        inline-size: 950px;
+        block-size: 400px;
     }
 
     section#login > div#imagem {
-        float: right;
-        width: 50%;
-        height: 100%;
+        float: inline-end;
+        inline-size: 50%;
+        block-size: 100%;
     }
 
     section#login > div#formulario {
-        float: left;
-        width: 50%;
+        float: inline-start;
+        inline-size: 50%;
     }
 
     div#formulario > h1{
